@@ -9,8 +9,8 @@ console.log(a)
 // Days since my birthdate- DAYS Since I WAS BORN
 
 let todaysDate = new Date ()
-let birthdate = new Date ("1997-11-14")
-let nextBirthday = new Date ("2023-11-14")
+let birthdate = new Date ("1987-07-12")
+let nextBirthday = new Date ("2023-07-12")
 let timeDifference1 = todaysDate.getTime() - birthdate.getTime()  
 let daysDifference1 = Math.floor(timeDifference1 / (1000*60*60*24))
 let timeDifference2 = todaysDate.getTime() - nextBirthday.getTime()  
