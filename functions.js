@@ -43,3 +43,55 @@ function addMe(num1, num2) {
 
 console.log(addMe(4,5))
 //Functions can call on other functions
+
+
+
+
+//Higher Order Function below.                       Activities
+const whichGreeting = (timeOfDay) => {
+    console.log(`Good ${timeOfDay}`);
+}
+const greet = (time, fn) => {
+    if (time < 1200){
+        fn("Morning");
+    }else if (time >= 1200 && time < 1800){
+        fn("Afternoon");
+    }else{
+        fn("Evening");
+    }
+
+}
+
+greet(1400, whichGreeting);
+
+
+
+
+//Higher Order Function Activity 1
+
+const hello = "Hello Code Nation"
+
+function hello5(){
+    for (let i = 0; i <= 5; i++){
+        if(i < 5){
+            console.log(hello);
+        }
+    }
+}
+
+
+
+hello5();
+
+
+// Higher Order Function Activity 2
+
+let numbers = [1, 4, 87, 12, 54];
+
+const num3 = numbers.map(myFunction)
+
+function myFunction(num) {
+    return num * 3;
+}
+
+console.log(num3)
