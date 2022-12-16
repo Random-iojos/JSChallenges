@@ -1,0 +1,48 @@
+
+#navbar {
+   background-color:aqua;
+   height: 100px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+#navbar a {
+    color: black;
+    font-size: 25px;
+    background-color: none;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h1 {
+    color: green;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:solid 5px;
+}
+
+img {
+    width: 300px;
+    border: solid 10px;
+    width: 50;
+    flex-wrap: wrap;
+}
+
+p1 {
+    color: rgb(77, 30, 154);
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    
+    
+}
+
+body {
+    background-color: bisque;
+    
+}
+
+/* // */
